@@ -77,11 +77,11 @@ SELECT 'My SQL' + ' Query!' -- For strings, this is concatenation
 -- Operators -, *, / and %
 
 SELECT  17/5,      -- will get 3
-		    7/10,      -- will get 0
-	    	17.0/5,    -- will get 3.4
-	    	17/5.0     -- will get 3.4
+	7/10,      -- will get 0
+	17.0/5,    -- will get 3.4
+	17/5.0     -- will get 3.4
 
 SELECT 8/0 -- Divide by zero error
 
 SELECT  17/5, -- is 3
-		    17%5  -- is 2
+	17%5  -- is 2
