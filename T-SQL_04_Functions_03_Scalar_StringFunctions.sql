@@ -29,7 +29,7 @@ LEN('Spaces at the end are not counted           ') AS [LEN], --> the length wit
 REVERSE('123456789') --> the reversed text
 
 -- STUFF, SUBSTRING
--- LTRIM,RTRIM,SPACE,REPLICATE,CHARINDEX,PATINDEX,REPLACE,CONCAT,STRING_SPLIT
+-- LTRIM,RTRIM,SPACE,REPLICATE,CHARINDEX,PATINDEX,REPLACE,CONCAT
 
 SELECT
 	STUFF('abcdef',4,3,'!') AS [Stuff], --> replacing 3 symbols starting from 4 into !
@@ -54,5 +54,6 @@ SELECT
 	'My'+' '+ISNULL(NULL,''),	--> 'My '
 	CONCAT('My',' ', NULL)		--> 'My '
 
+-- STRING_SPLIT, starting from SQL Server 2016
 SELECT
 VALUE FROM STRING_SPLIT('start|a|b|b|c|d|r|t|h|k|end','|') -- splitting the string with separator
