@@ -4,6 +4,10 @@
 --- Lesson 4 ---- Scalar Functions ------
 -----------------------------------------
 
+-----------------------------------------
+----- Scalar functions return values ----
+-----------------------------------------
+
 -- GO, is a separator of bacth of instructions
 -- GO, is not a function of SQL
 -- it wil be recognized as a separator in SQL Server Management Studio
